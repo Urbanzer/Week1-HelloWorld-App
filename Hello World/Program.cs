@@ -8,7 +8,7 @@ namespace Hello_World
         {
             Console.WriteLine("What is your name?");
             string UserName;
-            UserName = Console.ReadLine();
+            UserName = Console.ReadLine("Hello, " + UserName);
 
             Console.WriteLine();
 
